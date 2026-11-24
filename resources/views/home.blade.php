@@ -18,7 +18,7 @@
 <body>
     <main>
         <h1>Laravel starter</h1>
-        <p>Laravel {{ app()->version() }} on PHP {{ PHP_VERSION }}, deployed on <a href="https://containify.net">Containify</a>.</p>
+        <p>Laravel {{ app()->version() }} on PHP {{ PHP_VERSION }}, deployed on <a href="https://containify.cloud">Containify</a>.</p>
         <p>This page has been visited <strong>{{ $visits }}</strong> {{ $visits === 1 ? 'time' : 'times' }}.</p>
         <p class="muted">{{ $database }}</p>
         <p>Edit <code>resources/views/home.blade.php</code> and push to deploy.</p>
